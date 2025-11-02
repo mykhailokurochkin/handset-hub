@@ -1,57 +1,61 @@
-# Driftless Todo | A Minimalist Task Manager
+# Handset Hub | An Online Store for Mobile Devices
 
-## 📝 Project Description
+📝 **Project Description**
 
-**Driftless Todo** is a **minimalist and fully functional To-Do List application** built for distraction-free task management. The app's design is focused on a clean, modern user interface (UI) to help users stay focused.
+**Handset Hub** is a fully functional online store application built for browsing and purchasing mobile phones, tablets, and accessories. The app's design is focused on a clean, modern user interface (UI) to provide a seamless shopping experience.
 
-This project serves as a robust **frontend practice project** demonstrating proficiency in React component development, secure state management with **TypeScript**, and structured styling with SCSS.
+This project serves as a robust frontend practice project demonstrating proficiency in React component development, complex state management with **TypeScript**, and structured, responsive styling with **SCSS**.
 
 The core features include:
-* Adding new tasks to the list.
-* Toggling tasks as completed/active.
-* **Filtering** tasks by **All, Active, or Completed** status.
-* Clearing all completed tasks at once.
-* Displaying a counter for active items remaining.
 
-## 🔗 Live Demo
+  * Browsing product catalogs for phones, tablets, and accessories.
+  * Viewing detailed product pages.
+  * Adding and removing items from the shopping cart.
+  * Adding and removing items from a "Favorites" list.
+  * Filtering and sorting products by price, age, and name.
+  * A responsive design that works across desktop and mobile devices.
+
+🔗 **Live Demo**
 
 The application is hosted and publicly available at:
+[https://handset-hub.vercel.app/](https://handset-hub.vercel.app/)
 
-**https://handset-hub.vercel.app/**
-
-## 🛠️ Technologies Used
+🛠️ **Technologies Used**
 
 The project is built using a modern and type-safe frontend stack:
 
-* **React** - For efficient component-based UI development.
-* **TypeScript** - Ensures type safety, improving code quality and maintainability.
-* **SCSS (Sass)** - For structured and modular styling.
-* **HTML5 / CSS3**
+  * **React** - For efficient component-based UI development.
+  * **TypeScript** - Ensures type safety, improving code quality and maintainability.
+  * **SCSS (Sass)** - For structured and modular styling.
+  * **HTML5 / CSS3**
 
-## 🚀 Getting Started
+🚀 **Getting Started**
 
 Follow these steps to set up and run the project locally.
 
-### Prerequisites
+**Prerequisites**
 
 You need **Node.js** (which includes npm) installed on your machine.
 
-### Installation
+**Installation**
 
-1.  **Clone the repository:**
+1.  Clone the repository:
+
     ```bash
-    git clone https://github.com/Mihakurochkin/driftless-todo
-    cd Driftless-Todo
+    git clone https://github.com/mykhailokurochkin/handset-hub.git
+    cd handset-hub
     ```
 
-2.  **Install dependencies:**
+2.  Install dependencies:
+
     ```bash
     npm install
     # або
     yarn install
     ```
 
-3.  **Start the development server:**
+3.  Start the development server:
+
     ```bash
     npm start
     # або
@@ -60,20 +64,21 @@ You need **Node.js** (which includes npm) installed on your machine.
 
 The application will launch in your browser at `http://localhost:3000` (or another port).
 
-## 📂 Project Structure
+📂 **Project Structure**
 
 The codebase is organized following best practices for clarity and scalability:
 
-* `src/components/` - Reusable UI components (e.g., `TodoItem`, `TodoFilter`).
-* `src/types/` - TypeScript interface and type definitions.
-* `src/styles/` - SCSS files and global styling.
-* `src/utils/` - Helper functions.
-* `src/App.tsx` - Main application component.
+```
+src/
+├── components/   # Reusable UI components (e.g., ProductCard, CartItem, Slider)
+├── types/        # TypeScript interface and type definitions
+├── styles/       # SCSS files and global styling
+├── utils/        # Helper functions
+└── App.tsx       # Main application component
+```
 
-## 🤝 Contribution
+🤝 **Contribution**
 
-Feel free to open issues or submit pull requests with suggestions or improvements!
+Feel free to open issues or submit pull requests with suggestions or improvements\!
 
----
-
-**Mykhailo Kurochkin**
+Mykhailo Kurochkin
